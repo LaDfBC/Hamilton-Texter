@@ -23,7 +23,7 @@ def check_hamilton():
 
     for event in all_events:
         event = event.encode('ascii', 'ignore')
-        if "AIN" in event:
+        if "amilton" in event:
             send_text()
 
 def send_text():
